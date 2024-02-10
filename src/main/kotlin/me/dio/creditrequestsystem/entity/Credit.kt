@@ -6,8 +6,7 @@ import java.math.BigDecimal
 import java.time.LocalDate
 import java.util.UUID
 
-@Entity()
-@Table(name = "Credit")
+@Entity
 data class Credit(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,5 +22,5 @@ data class Credit(
     @Enumerated
     val status: Status = Status.IN_PROGRESS,
     @ManyToOne
-    val customer: Customer? = null
+    var customer: Customer? = null
 )
