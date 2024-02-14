@@ -1,6 +1,5 @@
 package me.dio.creditrequestsystem.dto
 
-import me.dio.creditrequestsystem.entity.Address
 import me.dio.creditrequestsystem.entity.Customer
 import java.math.BigDecimal
 

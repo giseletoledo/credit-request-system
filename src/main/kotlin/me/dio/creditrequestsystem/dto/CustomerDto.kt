@@ -1,11 +1,7 @@
 package me.dio.creditrequestsystem.dto
 
-import jakarta.validation.constraints.Email
-import jakarta.validation.constraints.NotEmpty
 import me.dio.creditrequestsystem.entity.Address
 import me.dio.creditrequestsystem.entity.Customer
-import org.hibernate.validator.constraints.br.CPF
-import org.jetbrains.annotations.NotNull
 import java.math.BigDecimal
 
 data class CustomerDto(
