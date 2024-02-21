@@ -2,7 +2,9 @@ package me.dio.creditrequestsystem.service
 
 import me.dio.creditrequestsystem.entity.Customer
 import me.dio.creditrequestsystem.repository.CustomerRepository
+import org.springframework.stereotype.Service
 
+@Service
 class CustomerService(
     private val customerRepository: CustomerRepository
 ): ICustomerService {
